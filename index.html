@@ -1,0 +1,673 @@
+<html>
+<head>
+<title>element</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+  <link rel="stylesheet" href="css/panel.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/snow.css" />
+<style>
+.container{
+	position: absolute;
+	top:0px;
+	left:0px;
+	height:1080px;
+	width:1920px;
+	overflow: hidden;
+}
+.box{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:3840px;
+	/*animation:aaa 30s infinite 5s linear running;*/
+}
+	.element{
+		float: left;
+		width:1920px;
+		height:1080px;
+		display: inline-block;
+	}
+
+.m1{
+	animation:s1 3s linear running;
+	animation-fill-mode: forwards;
+}
+.m2{
+	animation:s2 3s  linear running;
+	animation-fill-mode: forwards;
+
+}
+.m3{
+	animation:s3 3s  linear running;
+	animation-fill-mode: forwards;
+
+}
+.p1{
+	left:-495px;
+}
+.p2{
+	left:-1371px;
+}
+.p3{
+	left:-1920px;
+}
+	 @keyframes aaa {
+		0% {
+			transform:translateX(0px);
+		}
+		33% {
+			transform:translateX(-495px);
+		}
+		66% {
+			transform:translateX(-1371px);
+		}
+		100% {
+			transform:translateX(-1920px);
+		}
+	}
+	@keyframes s1 {
+		0% {
+			transform:translateX(0px);
+		}
+		100% {
+			transform:translateX(-495px);
+		}
+		/*66% {
+			transform:translateX(-1371px);
+		}
+		100% {
+			transform:translateX(-1920px);
+		}*/
+	}
+		 @keyframes s2 {
+		0% {
+			transform:translateX(-495px);
+		}
+		100% {
+			transform:translateX(-1371px);
+		}
+		/*66% {
+			transform:translateX(-1371px);
+		}
+		100% {
+			transform:translateX(-1920px);
+		}*/
+	}
+		 @keyframes s3 {
+		0% {
+			transform:translateX(-1371px);
+		}
+		100% {
+			transform:translateX(-1920px);
+		}
+		/*66% {
+			transform:translateX(-1371px);
+		}
+		100% {
+			transform:translateX(-1920px);
+		}*/
+	}
+	#content { 
+	width: 1920px;
+	height: 1080px; 
+	top: 0px;
+	overflow: hidden; 
+	position: absolute; 
+}
+#snowflake { 
+	width: 100%; 
+	height: 100%; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	overflow: hidden; 
+	z-index:1;
+}
+.snowRoll { 
+	position: absolute; 
+	opacity: 0; 
+	-webkit-animation-name: mysnow; 
+	-webkit-animation-duration: 20s; 
+	-moz-animation-name: mysnow; 
+	-moz-animation-duration: 20s; 
+	height: 80px; 
+}
+  </style>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div id="content">
+<div class="" id="snowflake"></div>
+</div>
+<!-- Save for Web Slices (element.png) -->
+<div class="container">
+<div class="box">
+		<div class="element">
+		<table width="1920" height="1080" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="10">
+			<img src="images/index_01.png" width="1920" height="63" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="63" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">
+			<img src="images/index_02.png" width="65" height="183" alt=""></td>
+		<td colspan="2">
+			<img class="jingdian" src="images/index_03.png" width="332" height="117" alt=""></td>
+		<td rowspan="19">
+			<img src="images/index_04.png" width="172" height="1017" alt=""></td>
+		<td>
+			<img class="shala" src="images/index_05.png" width="426" height="117" alt=""></td>
+		<td colspan="2" rowspan="3">
+			<img src="images/index_06.png" width="412" height="195" alt=""></td>
+		<td>
+			<img class="xiaoshi" src="images/index_07.png" width="351" height="117" alt=""></td>
+		<td rowspan="19">
+			<img src="images/index_08.png" width="162" height="1017" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="117" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img src="images/index_09.png" width="332" height="66" alt=""></td>
+		<td rowspan="18">
+			<img src="images/index_10.png" width="426" height="900" alt=""></td>
+		<td rowspan="18">
+			<img src="images/index_11.png" width="351" height="900" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="66" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="17">
+			<img src="images/index_12.png" width="15" height="834" alt=""></td>
+		<td colspan="2" rowspan="2">
+			<img class="13" src="images/index_13.png" width="59" height="51" alt=""></td>
+		<td rowspan="17">
+			<img src="images/index_14.png" width="323" height="834" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="12" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<img id="15" src="images/index_15.png" width="355" height="60" alt=""></td>
+		<td rowspan="16">
+			<img src="images/index_16.png" width="57" height="822" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="39" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="5">
+			<img src="images/index_17.png" width="59" height="239" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="21" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/index_18.png" width="355" height="10" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="10" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="19" src="images/index_19.png" width="355" height="61" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="61" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="20" src="images/index_20.png" width="355" height="75" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="75" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="21" src="images/index_21.png" width="355" height="72" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="72" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img class="22" src="images/index_22.png" width="59" height="59" alt=""></td>
+		<td rowspan="4">
+			<img src="images/index_23.png" width="355" height="142" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="59" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img src="images/index_24.png" width="59" height="21" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="21" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img class="25" src="images/index_25.png" width="59" height="54" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="54" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="4">
+			<img src="images/index_26.png" width="59" height="166" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="8" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="27" src="images/index_27.png" width="355" height="67" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="67" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="28" src="images/index_28.png" width="355" height="70" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="70" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<img id="29" src="images/index_29.png" width="355" height="75" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="21" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img class="30" src="images/index_30.png" width="59" height="54" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="54" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">
+			<img src="images/index_31.png" width="59" height="190" alt=""></td>
+		<td>
+			<img id="32" src="images/index_32.png" width="355" height="71" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="71" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/index_33.png" width="355" height="119" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="119" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="15" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="9" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="323" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="172" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="426" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="355" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="57" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="351" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="162" height="1" alt=""></td>
+		<td></td>
+	</tr>
+</table>
+</div>
+
+<div class="element">
+		<table width="1920" height="1080" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="10">
+			<img src="images/index_01.png" width="1920" height="63" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="63" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">
+			<img src="images/index_02.png" width="65" height="183" alt=""></td>
+		<td colspan="2">
+			<img class="jingdian" src="images/index_03.png" width="332" height="117" alt=""></td>
+		<td rowspan="19">
+			<img src="images/index_04.png" width="172" height="1017" alt=""></td>
+		<td>
+			<img class="shala" src="images/index_05.png" width="426" height="117" alt=""></td>
+		<td colspan="2" rowspan="3">
+			<img src="images/index_06.png" width="412" height="195" alt=""></td>
+		<td>
+			<img class="xiaoshi" src="images/index_07.png" width="351" height="117" alt=""></td>
+		<td rowspan="19">
+			<img src="images/index_08.png" width="162" height="1017" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="117" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img src="images/index_09.png" width="332" height="66" alt=""></td>
+		<td rowspan="18">
+			<img src="images/index_10.png" width="426" height="900" alt=""></td>
+		<td rowspan="18">
+			<img src="images/index_11.png" width="351" height="900" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="66" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="17">
+			<img src="images/index_12.png" width="15" height="834" alt=""></td>
+		<td colspan="2" rowspan="2">
+			<img class="13" src="images/index_13.png" width="59" height="51" alt=""></td>
+		<td rowspan="17">
+			<img src="images/index_14.png" width="323" height="834" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="12" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<img id="15" src="images/index_15.png" width="355" height="60" alt=""></td>
+		<td rowspan="16">
+			<img src="images/index_16.png" width="57" height="822" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="39" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="5">
+			<img src="images/index_17.png" width="59" height="239" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="21" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/index_18.png" width="355" height="10" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="10" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="19" src="images/index_19.png" width="355" height="61" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="61" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="20" src="images/index_20.png" width="355" height="75" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="75" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="21" src="images/index_21.png" width="355" height="72" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="72" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img class="22" src="images/index_22.png" width="59" height="59" alt=""></td>
+		<td rowspan="4">
+			<img src="images/index_23.png" width="355" height="142" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="59" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img src="images/index_24.png" width="59" height="21" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="21" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img class="25" src="images/index_25.png" width="59" height="54" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="54" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="4">
+			<img src="images/index_26.png" width="59" height="166" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="8" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="27" src="images/index_27.png" width="355" height="67" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="67" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="28" src="images/index_28.png" width="355" height="70" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="70" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<img id="29" src="images/index_29.png" width="355" height="75" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="21" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img class="30" src="images/index_30.png" width="59" height="54" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="54" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">
+			<img src="images/index_31.png" width="59" height="190" alt=""></td>
+		<td>
+			<img id="32" src="images/index_32.png" width="355" height="71" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="71" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/index_33.png" width="355" height="119" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="119" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="15" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="9" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="323" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="172" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="426" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="355" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="57" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="351" height="1" alt=""></td>
+		<td>
+			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="162" height="1" alt=""></td>
+		<td></td>
+	</tr>
+</table>
+</div>
+</div>
+
+</div>
+
+	
+
+</div>
+
+
+
+
+<!-- End Save for Web Slices -->
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script src="./js/jquery.transit.js"></script>
+<script src="./js/my.js"></script>
+<script>
+
+  $(document).ready(function(){
+function show(){
+	runAnim("jingdian","flipInX",
+		function(){
+			runAnim("shala","flipInX",function(){
+				runAnim("xiaoshi","flipInX");
+			})
+		});
+}
+setInterval(show,3000);
+
+  // $('.pre').addClass('move-left');
+
+function show2(){
+	runAnim("13","tada",
+		function(){
+			runAnim("22","tada",function(){
+				runAnim("25","tada", 
+
+					function(){
+						runAnim("30","tada");
+					}
+
+					);
+			})
+		});
+}
+setInterval(show2,6000);
+
+var move=['m1','m2','m3'];
+var left=['p1','p2','p3'];
+var current=0;
+function slide()
+{
+	var pre=move.length+current-1;
+	pre=pre%move.length;
+	var precss=move[pre];
+	var currentcss=move[current];
+	console.log('slide working');
+	console.log({precss,currentcss});
+	$('.box').removeClass(precss);
+	$('.box').addClass(currentcss);
+	// $('.box').removeClass(left[pre]);
+	// $('.box').addClass(left[current]);
+	current+=1;
+	current=current%move.length;
+	if(current==1){
+		// var toAppend =$('.element')[0];
+		console.log($('.element'));
+		$('.element').append($('.element')[0]);
+	}
+}
+setInterval(slide,10000)
+//
+//loop
+//
+function workloop(loop1,delaytime){
+
+
+
+var loop1point=0;
+function doloop1 () {
+	var id=loop1[loop1point];
+	var pid=loop1[(loop1.length+loop1point-1)%loop1.length];
+	console.log({id,pid});
+	$("#"+pid).removeClass('tag');
+	$("#"+id).addClass('tag');
+	loop1point=(loop1point+1)%loop1.length;
+
+}
+setInterval(doloop1,delaytime);
+}
+var loop=[15,19,20,21];
+workloop(loop,4000);
+var loop2=[29,32,27,28];
+workloop(loop2,5000);
+
+
+
+
+ var snowflakeURl = [
+            './images/icon_petal_1.png',
+            './images/icon_petal_2.png',
+            './images/icon_petal_3.png',
+            './images/icon_petal_4.png',
+            './images/icon_petal_5.png',
+            './images/icon_petal_6.png',
+            './images/icon_petal_7.png',
+            './images/icon_petal_8.png'
+        ]  
+        var container = $("#content");
+           visualWidth = container.width();
+           visualHeight = container.height();
+
+        function snowflake() {
+            // 雪花容器
+            var $flakeContainer = $('#snowflake');
+            // 随机六张图
+            function getImagesName() {
+                return snowflakeURl[[Math.floor(Math.random() * 8)]];
+            }
+            // 创建一个雪花元素
+            function createSnowBox() {
+                var url = getImagesName();
+                return $('<div class="snowbox" />').css({
+                    'width': 25,
+                    'height': 26,
+                    'position': 'absolute',
+                    'backgroundRepeat':'no-repeat',
+                    'zIndex': 100000,
+                    'top': '-41px',
+                    'backgroundImage': 'url(' + url + ')'
+                }).addClass('snowRoll');
+            }
+            // 开始飘花
+            setInterval(function() {
+                // 运动的轨迹
+                var startPositionLeft = Math.random() * visualWidth - 100,
+                    startOpacity    = 1,
+                    endPositionTop  = visualHeight - 40,
+                    endPositionLeft = startPositionLeft - 100 + Math.random() * 500,
+                    duration        = visualHeight * 10 + Math.random() * 5000;
+                // 随机透明度，不小于0.5
+                var randomStart = Math.random();
+                randomStart = randomStart < 0.5 ? startOpacity : randomStart;
+                // 创建一个雪花
+                var $flake = createSnowBox();
+                // 设计起点位置
+                $flake.css({
+                    left: startPositionLeft,
+                    opacity : randomStart
+                });
+                // 加入到容器
+                $flakeContainer.append($flake);
+                // 开始执行动画
+                $flake.transition({
+                    top: endPositionTop,
+                    left: endPositionLeft,
+                    opacity: 0.7
+                }, duration, 'ease-out', function() {
+                    $(this).remove() //结束后删除
+                });
+            }, 500);
+        }
+         snowflake()
+
+// function init(){
+// 	var html = $("#htmlcontent").html();
+// 	var sel=".inner .innerwrapper";
+//     document.querySelector(sel).innerHTML = html+html; // 复制一份数据
+//     // var height = document.querySelector(.lis't .ss').offsetHeight; // 一份数据的高度
+//     // addKeyFrames( '-'+height+'px' ); // 设置keyframes
+//     // document.querySelector('.list .cc').className += ' rowup'; // 添加 rowup
+// }
+// init();
+//
+  });
+
+	
+	
+	
+	
+</script>
+</body>
+</html>
+<script type="text/javascript" src="../static.js"></script>
